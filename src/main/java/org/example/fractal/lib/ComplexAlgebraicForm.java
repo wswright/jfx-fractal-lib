@@ -79,18 +79,7 @@ public record ComplexAlgebraicForm(double re, double im) {
 		return sin().divides(cos());
 	}
 
-//	public MyComplexClass pow(double exponent) {
-//		//DeMoivre's Theorem
-//		//z^n = (r ^ n) * (e^(i*n*theta))
-//		//r = mag(z), sqrt(x^2 + y^2)
-//		//theta = arctan(y/x)
-//		double r = this.abs();
-//		double theta = Math.atan(this.im / this.re);
-//		return Math.pow(r, exponent) * (Math.cos(exponent * theta) +  Math.asin(exponent * theta));
-//
-//	}
-
-
+	//TODO: Implement DeMoivre's Theorem
 
 	// a static version of plus
 	public static ComplexAlgebraicForm plus(ComplexAlgebraicForm a, ComplexAlgebraicForm b) {
@@ -129,5 +118,4 @@ public record ComplexAlgebraicForm(double re, double im) {
 		System.out.println("|a|          = " + a.abs());
 		System.out.println("tan(a)       = " + a.tan());
 	}
-
 }
