@@ -1,4 +1,4 @@
-package org.example.fractal.lib;
+package org.wswright.fractal.lib;
 
 import org.jetbrains.annotations.NotNull;
 

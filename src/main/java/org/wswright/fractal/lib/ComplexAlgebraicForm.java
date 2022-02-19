@@ -1,4 +1,4 @@
-package org.example.fractal.lib;
+package org.wswright.fractal.lib;
 
 import java.util.Objects;
 
